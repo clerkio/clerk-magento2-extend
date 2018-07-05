@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="clerk_product_get_collection_after">
+        <observer name="extend_clerk_product_get_collection_after" instance="Clerk\ExtendClerk\Observer\ClerkProductGetCollectionAfter"/>
+    </event>
+</config>
